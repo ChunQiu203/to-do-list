@@ -1,4 +1,4 @@
-package com.todoapp.shared;
+package todoapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

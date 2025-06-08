@@ -1,4 +1,4 @@
-package com.todoapp.shared;
+package todoapp;
 
 import javafx.application.Application;
 import javafx.application.Platform;
@@ -762,7 +762,7 @@ public class MainBorderPane extends Application {
         TaskSyncData syncData = new TaskSyncData(
             new ArrayList<Task>(uncompletedTasks),
             new ArrayList<>(deletedTasks),
-            new ArrayList<com.todoapp.shared.TaskList>(customLists)
+            new ArrayList<todoapp.TaskList>(customLists)
         );
         networkService.syncTasks(syncData)
             .thenAccept(v -> {

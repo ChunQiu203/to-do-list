@@ -1,4 +1,4 @@
-package com.todoapp.shared;
+package todoapp;
 import java.io.Serializable;
 import javafx.collections.ObservableList;
 public class TaskData implements Serializable {

@@ -1,4 +1,4 @@
-package com.todoapp.shared;
+package todoapp;
 
 import java.io.Serializable;
 import java.util.List;

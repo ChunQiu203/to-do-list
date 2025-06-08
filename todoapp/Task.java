@@ -1,4 +1,4 @@
-package com.todoapp.shared;
+package todoapp;
 
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.SimpleBooleanProperty;
